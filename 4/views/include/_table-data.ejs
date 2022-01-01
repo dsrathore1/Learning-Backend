@@ -1,0 +1,14 @@
+<% for(var i = 0; i<users.length;i++){ %> 
+<tr>
+    <td><%=i + 1%></td>
+    <td><%=users[i].name%></td>
+    <td><%=users[i].email%></td>
+    <td><%=users[i].gender%></td>
+    <td><%=users[i].status%></td>
+    <td>
+        <a href="/update_user"><i class="fas fa-pencil"
+                style="font-size: 1.5rem; margin-right: 1.3rem;"></i></a>
+        <a href="#"><i class="fas fa-trash-alt" style="font-size: 1.5rem;"></i></a>
+    </td>
+</tr>
+<%} %> 

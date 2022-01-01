@@ -1,0 +1,25 @@
+<!-- Header  -->
+<%- include("include/_header.ejs") %>
+<!-- /Header  -->
+
+<!-- Main Page -->
+<div class="container">
+    <div class="text-center mt-3">
+        <h3 class="header3">Edit User</h3>
+    </div>
+    <div class="container2">
+        <div class="col-md-12">
+            <form id="update_user" method="post">
+                <%- include('include/_new-user.ejs') %> 
+                <div class="text-center">
+                    <button class="btn btn-outline-danger addButton" type="submit">Add</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- /Main Page -->
+
+    <!-- Footer -->
+    <%- include("include/_footer.ejs") %>
+    <!-- /Footer -->
