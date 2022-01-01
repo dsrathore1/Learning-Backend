@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Registration Page */
+
+.mainContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-85deg, #159392, #32CE9F);
+}
+
+.boxContainer {
+    box-shadow: 8px 9px 18px 0 #42424252;
+    display: flex;
+    background-color: white;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    height: 93vh;
+}
+
+
+/* Left side Block */
+.left {
+    width: 60vh;
+    height: 85vh;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainLeftBlock {
+    background-image: url("/Assets/rightBG.jpg");
+    border-radius: 40px 0 0 40px;
+    background-size: contain;
+    border: none;
+    outline: none;
+    position: relative;
+    height: 93vh;
+}
+
+.companyName {
+    margin-top: 0.3rem;
+    opacity: 0.5;
+    margin-left: 1.6rem;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.heading1 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.heading2 {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    opacity: 0.7;
+}
+
+.loginAsk {
+    display: flex;
+    width: 90%;
+    position: absolute;
+    justify-content: right;
+}
+
+.que {
+    margin-right: 1rem;
+    font-weight: 100;
+    color: white;
+    opacity: 0.4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.loginBtn {
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 2px 1rem;
+    color: #ffffff;
+    border-radius: 15px;
+    opacity: 0.7;
+    transition: all .3s ease-in-out;
+}
+
+.loginBtn:active {
+    transform: translateY(4px);
+}
+
+/* Left side block */
+
+
+/* Right side block */
+
+.mainRightBlock {
+    width: 100vh;
+}
+
+.rightBlockHeading {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: .6rem;
+}
+
+.heading3 {
+    text-align: center;
+    margin-bottom: .4rem;
+    color: #32CE9F;
+    letter-spacing: .6px;
+}
+
+.para1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: .4;
+}
+
+.rightMainBlock {
+    margin-top: 4rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    margin-right: 4rem;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: #F8F6F6;
+    margin-bottom: 2.3rem;
+    margin-left: 2rem;
+    padding: .5rem 7rem .5rem 1rem;
+    border-radius: 6px;
+}
+
+.nameC {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    text-transform: uppercase;
+}
+
+.emailC {
+    display: flex;
+    justify-content: space-between;
+}
+
+.emailC label {
+    color: #4ddfb3;
+}
+
+.numC {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pwdC {
+    display: flex;
+    justify-content: space-between;
+}
+
+.C_pwd {
+    display: flex;
+    justify-content: space-between;
+}
+
+.captchaC {
+    display: flex;
+    justify-content: space-between;
+}
+
+.captchaC input {
+    padding: .4rem 0.6rem .4rem .6rem;
+}
+
+.captchaImg {
+    height: 15%;
+    width: 15%;
+}
+
+
+.rightBlockButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.cancelBtn {
+    margin-right: 3rem;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #000000;
+    color: #ffffff;
+    padding: .4rem 2.5rem;
+    box-shadow: 6px 10px 18px 0 #6e6e6e3f;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cancelBtn:active {
+    transform: translateY(4px);
+}
+
+.registerBtn {
+    margin-right: 3rem;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #259b78;
+    color: #ffffff;
+    padding: .4rem 2.5rem;
+    box-shadow: 6px 10px 18px 0 #6e6e6e3f;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.registerBtn:active {
+    transform: translateY(4px);
+}
+
+/* Right side block */
+
+/* Registration Page */
+
+/* Login Page */
+
+
+
+/* Login Page */

@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Login Page */
+
+.mainContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-85deg, #FC8482, #7AEAF1);
+}
+
+.boxContainer {
+    box-shadow: 8px 9px 18px 0 #42424252;
+    display: flex;
+    background-color: white;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    height: 75vh;
+    width: 70%;
+}
+
+
+/* Left side Block */
+.left {
+    width: 60vh;
+    height: 67vh;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainLeftBlock {
+    background-image: url("/Assets/loginBG.jpg");
+    border-radius: 40px 0 0 40px;
+    background-size: contain;
+    border: none;
+    outline: none;
+    position: relative;
+    height: 75vh;
+    background-repeat: no-repeat;
+}
+
+.companyName {
+    margin-top: 0.3rem;
+    opacity: 0.5;
+    margin-left: 1.6rem;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.heading1 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.heading2 {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    opacity: 0.7;
+}
+
+.loginAsk {
+    display: flex;
+    width: 90%;
+    position: absolute;
+    justify-content: right;
+}
+
+.que {
+    margin-right: 1rem;
+    font-weight: 100;
+    color: white;
+    opacity: 0.4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.registerBtn {
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 2px 1rem;
+    color: #ffffff;
+    border-radius: 15px;
+    opacity: 0.7;
+    transition: all .3s ease-in-out;
+}
+
+.registerBtn:active {
+    transform: translateY(4px);
+}
+
+/* Left side block */
+
+
+/* Right side block */
+
+.mainRightBlock {
+    width: 100vh;
+}
+
+.rightBlockHeading {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: .6rem;
+}
+
+.heading3 {
+    text-align: center;
+    margin-bottom: .4rem;
+    color: #6ad1d8;
+}
+
+.para1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: .4;
+}
+
+.rightMainBlock {
+    margin-top: 6rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    margin-right: 4rem;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: #F8F6F6;
+    margin-left: 2rem;
+    padding: .5rem 7rem .5rem 1rem;
+    border-radius: 6px;
+}
+
+
+.emailC {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.3rem;
+}
+
+.emailC label {
+    color: #FC8482;
+}
+
+.pwdC {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .6rem;
+}
+
+.forgetPwd {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.fPwd {
+    text-decoration: none;
+    color: #114cec;
+    margin-right: 6.2rem;
+    font-size: 13px;
+}
+
+.rightBlockButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.loginBtn {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #FC8482;
+    color: #ffffff;
+    padding: .4rem 2.5rem;
+    box-shadow: 6px 5px 5px 0 #6e6e6e3f;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.loginBtn:active {
+    transform: translateY(4px);
+}
+
+.loginWithOtherPlatform {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.googleLogin {
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: #000000;
+    box-shadow: 4px 3px 14px 0 #88888854;
+    padding: .8rem 4rem;
+    border-radius: 2px;
+    transition: all .2s ease-in-out;
+}
+
+.googleLogin:active {
+    transform: translateY(4px);
+}
+
+.githubLogin {
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: #000000;
+    box-shadow: 4px 3px 14px 0 #88888854;
+    padding: .8rem 4rem;
+    border-radius: 2px;
+    transition: all .2s ease-in-out;
+}
+
+.githubLogin:active {
+    transform: translateY(4px);
+}
+
+/* Right side block */
+
+/* Login Page */

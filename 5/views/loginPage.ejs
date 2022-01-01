@@ -1,0 +1,50 @@
+<%- include("include/_header.ejs") %>
+
+<body>
+    <!-- Main code -->
+    <div class="mainContainer">
+        <div class="boxContainer">
+            <div class="mainLeftBlock">
+                <p class="companyName">Sharing Shutters</p>
+                <div class="left">
+                    <div class="middleHeading">
+                        <h1 class="heading1">Welcome Back!</h1>
+                        <h3 class="heading2">To keep connected with <br>us please login with your <br>personal info</h3>
+                    </div>
+                </div>
+                <div class="loginAsk">
+                    <p class="que">Do not have an account?</p>
+                    <a href="/registrationPage.ejs" class="registerBtn">Login</a>
+                </div>
+            </div>
+            <form class="mainRightBlock">
+                <div class="rightBlockHeading">
+                    <h1 class="heading3">Login</h1>
+                    <p class="para1">click on login to being active user</p>
+                </div>
+                <div class="rightMainBlock">
+                    <div class="emailC">
+                        <label for="#">Email</label>
+                        <input type="email" placeholder="example@domain.com" class="email" name="email">
+                    </div>
+                    <div class="pwdC">
+                        <label for="#">Password</label>
+                        <input type="password" placeholder="*******" class="pwd" name="pwd">
+                    </div>
+                </div>
+                <div class="forgetPwd">
+                    <a href="#" class="fPwd">Forget Password ?</a>
+                </div>
+                <div class="rightBlockButtons">
+                    <button class="loginBtn" type="submit">Login</button>
+                </div>
+                <div class="loginWithOtherPlatform">
+                    <a href="#" class="googleLogin">Continue with google account</a>
+                    <a href="#" class="githubLogin">Continue with github account</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- /Main code -->
+
+    <%- include("include/_footer.ejs") %>

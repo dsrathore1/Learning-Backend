@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/registrationStyle.css">
+    <title>Sharing Shutters | Register</title>
+</head>
+
+<body>
+    <!-- Main code -->
+    <div class="mainContainer">
+        <div class="boxContainer">
+            <div class="mainLeftBlock">
+                <p class="companyName">Sharing Shutters</p>
+                <div class="left">
+                    <div class="middleHeading">
+                        <h1 class="heading1">Hello Friend!</h1>
+                        <h3 class="heading2">Enter your personal details <br> and start new journey <br> with us</h3>
+                    </div>
+                </div>
+                <div class="loginAsk">
+                    <p class="que">Already have an account?</p>
+                    <a href="/loginPage.ejs" class="loginBtn">Login</a>
+                </div>
+            </div>
+            <form class="mainRightBlock">
+                <div class="rightBlockHeading">
+                    <h1 class="heading3">Registration</h1>
+                    <p class="para1">click on register to being new user</p>
+                </div>
+                <div class="rightMainBlock">
+                    <div class="nameC">
+                        <label for="#">Name</label>
+                        <input type="text" placeholder="Jennifer luis" class="name" name="name">
+                    </div>
+                    <div class="emailC">
+                        <label for="#">Email</label>
+                        <input type="email" placeholder="example@domain.com" class="email" name="email">
+                    </div>
+                    <div class="numC">
+                        <label for="#">Mobile Number</label>
+                        <input type="number" placeholder="+91-9944039509" class="number" name="number">
+                    </div>
+                    <div class="pwdC">
+                        <label for="#">Password</label>
+                        <input type="password" placeholder="*******" class="pwd" name="pwd">
+                    </div>
+                    <div class="C_pwd">
+                        <label for="#">Confirm Password</label>
+                        <input type="password" placeholder="*****|" class="c_pwd" name="cPwd">
+                    </div>
+                    <div class="captchaC">
+                        <label for="#">CAPTCHA</label>
+                        <img src="/Assets/captchaCode.png" class="captchaImg" alt="#">
+                        <input type="text" class="captcha" name="captcha">
+                    </div>
+                </div>
+                <div class="rightBlockButtons">
+                    <a class="cancelBtn" href="/" type="submit">Cancel</a>
+                    <button class="registerBtn" type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- /Main code -->
+
+    <!-- Script -->
+    <script src="/main.js"></script>
+    <!-- /Script -->
+</body>
+
+</html>
